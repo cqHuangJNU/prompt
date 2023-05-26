@@ -1,0 +1,42 @@
+{
+  "example_zh": {
+      "task_name": "example_zh",
+      "data_dir" : "../@_DATASETs/example_zh/",
+      "batch_size": 8,
+      "epoch_num": 20,
+      "wrapper_type": "mlm",
+      "max_seq_length": 30,
+      "pattern_id": 4,
+      "verbalizer_cal_type": "sum"
+  },
+  "example_en": {
+      "task_name": "example_en",
+      "data_dir" : "../@_DATASETs/example_en/",
+      "batch_size": 8,
+      "epoch_num": 20,
+      "wrapper_type": "mlm",
+      "max_seq_length": 24,
+      "pattern_id": 3,
+      "verbalizer_cal_type": "sum"
+  },
+  "eprstmt_zh": {
+      "task_name": "eprstmt_zh",
+      "data_dir" : "../@_DATASETs/FewCLUE/eprstmt/",
+      "batch_size": 16,
+      "epoch_num": 20,
+      "wrapper_type": "mlm",
+      "max_seq_length": 40,
+      "pattern_id": 4,
+      "verbalizer_cal_type": "sum"
+  },
+  "agnews_en":{
+      "task_name": "agnews_en",
+      "data_dir" : "../@_DATASETs/agnews/",
+      "batch_size": 32,
+      "epoch_num": 20,
+      "wrapper_type": "mlm",
+      "max_seq_length": 50,
+      "pattern_id": 4,
+      "verbalizer_cal_type": "avg"
+  }
+}
